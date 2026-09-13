@@ -24,5 +24,6 @@ RUN mkdir -p /models \
        https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_large.pt
 
 COPY handler.py /handler.py
+# v2 handler: soft alpha, batch, box+points, bbox
 
 CMD ["python", "-u", "/handler.py"]

@@ -1,6 +1,9 @@
 {
   "input": {
     "mode": "center",
+    "keep_canvas": true,
+    "feather": 5,
+    "prefer_standing": true,
     "image_url": "https://pbs.twimg.com/media/HRc0NmvXEAA8dai.jpg?name=large"
   }
 }
